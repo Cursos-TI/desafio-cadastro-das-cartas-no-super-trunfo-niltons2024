@@ -27,6 +27,8 @@ int main() {
     float PIB;
     int pontosturisticos;
 
+    // sintaxe scanf
+    // scanf("formato1" "formato2, &variavel1, variavel2, ...);
     printf("Digite seu estado: \n");
     scanf("%c", &estado);
 
@@ -48,6 +50,10 @@ int main() {
     printf("Digite quantos pontos turisticos: \n");
     scanf("%d", &pontosturisticos);
 
-    
-    return 0;
+    printf("Estado: %c\n", estado);
+    printf("Codigo da Carta: %s\n", codigo);
+    printf("Populacao: %d\n", populacao);
+    printf("Nome da cidade: %s\n", nome);
+    printf("Area: %f\n", area);
+    printf("PIB: %f\n", PIB);
 }
