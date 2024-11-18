@@ -17,6 +17,7 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf("Desafio-Cadastro-das-Cartas \n");
+    printf("Novo Commit\n");
 
     char estado;
     char codigo[2];
